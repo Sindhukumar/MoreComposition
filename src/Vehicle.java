@@ -8,7 +8,7 @@ public class Vehicle {
 		car1.setColor("red");
 		car1.setDriver(driver);
 		car1.setMake("Porsche");
-		System.out.println("The "+car1.getColor()+" "+car1.getMake()+" is being driven by "+driver.getName());
+		System.out.println("The "+car1.getColor()+" "+car1.getMake()+" is being driven by "+car1.getDriver().getName());
 	}
 
 }
